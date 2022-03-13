@@ -1,0 +1,130 @@
+
+.popup-div {
+  height: 100%;
+  width: 450px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-color: rgba(0, 0, 0, 0.7);
+  transform: translate(-50%,-50%);
+  z-index: 99;
+  overflow: auto;
+}
+#productItemcard {
+  width:353px;
+  margin: 20px auto;
+  border-radius: 20px !important;
+}
+
+#productItemcard-img {
+  height: 400px;
+  object-fit:cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.productitem-name {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 15px 0;
+  align-items: center;
+}
+.rating {
+  display: flex;
+  align-items: center;
+}
+.rating span {
+  color: rgb(176, 174, 174);
+  font-size: 13px;
+}
+.brand-name {
+  color: #666666;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.brand-description {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+}
+
+#wp-btn{
+  background-color: hsl(129, 63%, 45%);
+}
+#black-btn{
+  background-color: #000;
+}
+
+
+#wp-btn,#black-btn {
+  width: 80%;
+  margin: 5px 0;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+}
+.pricing {
+  display: flex;
+}
+
+.org-price {
+  color: #999999;
+  text-decoration: line-through;
+  line-height: 35px;
+}
+.selling-pice {
+  color: #333333;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+}
+.discount{
+letter-spacing: 2px;
+font-weight: 700;
+font-size: 12px;
+line-height: 36px;
+color: #2ABB40;
+margin-left: 5px;
+}
+
+.product-description,.product-description a{
+  font-size: 14px;
+  text-align: left;
+    color: #666666;
+    margin-bottom: 5px;
+}
+.cardhead{
+    position: absolute;
+    top: 20px;
+}
+.cardhead-icon{
+    color: rgb(169, 168, 168);
+    right: 10px;
+}
+.cardhead-discount{
+    background-color: black;
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+    top: 50px;
+    padding: 0 25px 0 15px;
+    border-radius: 0 15px 15px 0;
+}
+.card-budget{
+    background-color: #E91E63;
+    color: #fff;
+    font-weight: 500;
+    padding: 0 10px;
+    border-radius: 0 15px 15px 0;
+
+}
+.brand-name,#wp-btn,#black-btn{
+  font-family: 'Clash Display';
+}
+
+.productItemcard {
+  font-family: 'Poppins';
+}

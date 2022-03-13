@@ -1,0 +1,8 @@
+#smproduct{
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+    object-fit:cover;
+    border-radius: 10px;
+    margin: 5px;
+}

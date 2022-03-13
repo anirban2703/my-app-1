@@ -1,38 +1,42 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 .App {
   text-align: center;
+  max-width: 450px;
+  height: 100vh;
+  margin: auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.description {
+  width: 95%;
+  background-color: #fff;
+  margin: 0 auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ytVideos {
+  text-align: left;
+  padding-top: 15px;
+  border-top:  1px solid #F2F2F2;;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ytVideos h2{
+  font-family: 'Clash Display';
+  font-weight: 600;
+  font-size: 24px;
 }
-
-.App-link {
-  color: #61dafb;
+.ytVideos p{
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.taggedproduct-name {
+  text-align: left;
+  margin-bottom: 10px;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
 }
